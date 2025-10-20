@@ -61,7 +61,7 @@ function BookCardComponent({
 
   return (
     <article
-      className={` border-b min-h-[100px] border-brand-neutral bg-brand-white p-4 shadow-sm ${className}`}
+      className={`border-b min-h-[100px] border-brand-neutral bg-brand-white p-4 shadow-sm ${className}`}
     >
       {!isExpanded ? (
         // 컴팩트 뷰: 기본 도서 정보와 액션 버튼들

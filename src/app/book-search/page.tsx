@@ -14,6 +14,14 @@ export const metadata: Metadata = {
     "저자 검색",
     "출판사 검색",
   ],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
   openGraph: {
     title: "도서 검색 | CERTICOS BOOKS",
     description:

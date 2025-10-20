@@ -28,8 +28,12 @@ export const metadata: Metadata = {
     canonical: "/my-picks",
   },
   robots: {
-    index: false,
+    index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
 };
 
