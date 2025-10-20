@@ -142,11 +142,11 @@ src/
 
 - Tailwind CSS: CSS 프레임워크
 - shadcn/ui: 고품질 재사용 가능한 컴포넌트
-- Lucide React: 일관된 아이콘 시스템
+- Lucide React: 빠른 아이콘 적용
 
 ### 이미지 최적화
 
-- @svgr/webpack: SVG를 React 컴포넌트로 변환
+- @svgr/webpack: SVG 리소스를 React 컴포넌트로 변환하여 사용
 
 ### 개발 도구
 
